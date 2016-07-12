@@ -15,6 +15,9 @@
 		A6FE3EA91D34795600AF53E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FE3EA71D34795600AF53E4 /* LaunchScreen.storyboard */; };
 		A6FE3EB41D34795600AF53E4 /* TableViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FE3EB31D34795600AF53E4 /* TableViewExampleTests.swift */; };
 		A6FE3EBF1D34795600AF53E4 /* TableViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FE3EBE1D34795600AF53E4 /* TableViewExampleUITests.swift */; };
+		A6FE3ECF1D3482AF00AF53E4 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FE3ECE1D3482AF00AF53E4 /* Todo.swift */; };
+		A6FE3ED11D34887B00AF53E4 /* 02d.png in Resources */ = {isa = PBXBuildFile; fileRef = A6FE3ED01D34887B00AF53E4 /* 02d.png */; };
+		A6FE3ED51D34965D00AF53E4 /* AddTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FE3ED41D34965D00AF53E4 /* AddTodoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A6FE3EBA1D34795600AF53E4 /* TableViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FE3EBE1D34795600AF53E4 /* TableViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExampleUITests.swift; sourceTree = "<group>"; };
 		A6FE3EC01D34795600AF53E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FE3ECE1D3482AF00AF53E4 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		A6FE3ED01D34887B00AF53E4 /* 02d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 02d.png; path = ../../images/02d.png; sourceTree = "<group>"; };
+		A6FE3ED41D34965D00AF53E4 /* AddTodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddTodoViewController.swift; path = ../AddTodoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,12 @@
 		A6FE3E9A1D34795600AF53E4 /* TableViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				A6FE3ED41D34965D00AF53E4 /* AddTodoViewController.swift */,
+				A6FE3ED01D34887B00AF53E4 /* 02d.png */,
 				A6FE3E9B1D34795600AF53E4 /* AppDelegate.swift */,
 				A6FE3E9D1D34795600AF53E4 /* ViewController.swift */,
 				A6FE3E9F1D34795600AF53E4 /* Main.storyboard */,
+				A6FE3ECE1D3482AF00AF53E4 /* Todo.swift */,
 				A6FE3EA51D34795600AF53E4 /* Assets.xcassets */,
 				A6FE3EA71D34795600AF53E4 /* LaunchScreen.storyboard */,
 				A6FE3EAA1D34795600AF53E4 /* Info.plist */,
@@ -190,6 +199,9 @@
 		A6FE3E901D34795600AF53E4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = test;
@@ -232,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6FE3ED11D34887B00AF53E4 /* 02d.png in Resources */,
 				A6FE3EA91D34795600AF53E4 /* LaunchScreen.storyboard in Resources */,
 				A6FE3EA61D34795600AF53E4 /* Assets.xcassets in Resources */,
 				A6FE3EA11D34795600AF53E4 /* Main.storyboard in Resources */,
@@ -260,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6FE3EA41D34795600AF53E4 /* TableViewExample.xcdatamodeld in Sources */,
+				A6FE3ED51D34965D00AF53E4 /* AddTodoViewController.swift in Sources */,
 				A6FE3E9E1D34795600AF53E4 /* ViewController.swift in Sources */,
 				A6FE3E9C1D34795600AF53E4 /* AppDelegate.swift in Sources */,
+				A6FE3ECF1D3482AF00AF53E4 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
